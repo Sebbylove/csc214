@@ -1,0 +1,108 @@
+.contact {
+    padding: 0%;
+    word-spacing: .5rem;
+    text-align: left;
+    background-color: rgb(98, 182, 207);
+    color: white;
+    text-size-adjust: 50%;
+    
+
+
+}
+.menu1 {
+    position: relative;
+    text-align: right;
+    color: white;
+    align-items: flex-start;
+    text-decoration: white;
+    
+}
+.menu1 a{
+    padding: 0%;
+    text-size-adjust: .2rem;
+    color: white;
+
+}
+
+.search {
+    padding: 0%;
+    text-align: center;
+    border: 1px;
+    color: white;
+}
+
+.cart {
+    padding: 0%;
+    text-align: right;
+    text-overflow: clip;
+    top: auto;
+}
+
+.logo {
+    padding: 0%;
+    text-align: left;
+}
+
+.menus {
+    padding: 0%;
+    text-align: right;
+    word-spacing: 1.7rem;
+}
+.best {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.best ::before,
+.best ::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(40% - 60px);
+    height: 1px;
+    background-color: black;
+}
+.best ::before {
+    left: 0;
+}
+.best ::after {
+    right: 0;
+}
+table {
+    padding: 0%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+td {
+    padding: 55px;
+}
+.cat {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.cat ::before,
+.cat ::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: calc(40% - 70px);
+    height: 1px;
+    background-color: black;
+}
+.cat ::before {
+    left: 0;
+}
+.cat ::after {
+    right: 0;
+}
+.test {
+    text-align: center;
+    background-color: rgb(75, 110, 207);
+    color: white;
+    text-transform: uppercase;
+}
+.contact p {
+    position: relative;
+    text-align: justify;
+}
